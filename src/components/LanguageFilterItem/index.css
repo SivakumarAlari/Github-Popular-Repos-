@@ -1,0 +1,28 @@
+.buttonDesign {
+  border: 0px;
+  border-width: 0px;
+  background-color: transparent;
+  height: 30px;
+  width: 120px;
+  font-size: 17px;
+  font-family: 'Bree Serif';
+  color: #0f172a;
+  font-weight: 400;
+}
+.btnDesign {
+  border-radius: 7px;
+  border: 2px solid #0284c7;
+  height: 30px;
+  width: 120px;
+  font-size: 17px;
+  font-family: 'Lobster';
+  color: #0f172a;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .buttonDesign {
+    font-size: 25px;
+    font-family: 'Bree Serif';
+  }
+}

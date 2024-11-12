@@ -1,0 +1,67 @@
+.eachImageContainer {
+  height: 250px;
+  width: 270px;
+  border-radius: 9px;
+  background-color: #f8f8ff;
+  margin-right: 5px;
+  margin-bottom: 3vh;
+  box-shadow: 0px 2px 18px 4px #fbfbfb;
+}
+.star-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1vh;
+}
+.avatarNameContainer {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1.5vh;
+}
+.bottomPart-container {
+  margin-left: 3vw;
+}
+.avatarImageDesign {
+  height: 60px;
+  width: 65px;
+}
+.name {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #e73959;
+}
+.starsImage {
+  height: 22px;
+  width: 22px;
+  margin-right: 1.5vw;
+}
+.forksImage {
+  height: 22px;
+  width: 22px;
+  margin-right: 1.5vw;
+}
+.issueImage {
+  height: 22px;
+  width: 22px;
+  margin-right: 1.5vw;
+}
+.starCount-paragraph {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .eachImageContainer {
+    height: 250px;
+    width: 275px;
+    border-radius: 9px;
+    background-color: #f8f8ff;
+    margin-right: 2.5vw;
+    margin-bottom: 3vh;
+    box-shadow: 0px 2px 18px 4px #fbfbfb;
+  }
+}
